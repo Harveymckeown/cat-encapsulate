@@ -68,8 +68,6 @@ public class CatTest {
 		cat.runs();
 		cat.runs();	
 		//dead count 9
-		cat.runs();
-		cat.runs();
 		assert(cat.isAlive() == false);
 	}
 }
